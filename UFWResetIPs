@@ -1,0 +1,10 @@
+#! /bin/bash
+#ver 1.1
+
+#rest all rules
+yes | ufw reset
+yes | ufw enable
+ufw status
+
+#run script to re-add current IP's
+/bin/bash /scripts/scrips/firewallupdate.sh
