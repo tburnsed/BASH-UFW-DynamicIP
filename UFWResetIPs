@@ -7,4 +7,4 @@ yes | ufw enable
 ufw status
 
 #run script to re-add current IP's
-/bin/bash /scripts/scrips/firewallupdate.sh
+/bin/bash LOCATIONOFSCRIPT/NAMEOFSCRIPT.sh
